@@ -1,0 +1,233 @@
+body{
+    background-color:grey;
+    margin:0;
+   
+}
+
+.main-content{
+    display:grid;
+    grid-template-columns: 300px 700px;
+    min-height: 1000px;
+    width:90%;
+    margin:20px auto;
+  
+}
+   
+.left-section{
+      background-color: #242531;
+      padding:1rem;
+      grid-column: 1/span 1;
+      align-items: center;
+      justify-content: center;
+}
+.left-content{
+    padding:1rem;
+
+}
+.contact-item{
+    height:268px;
+    height: 129px;
+}
+.profile-image img{
+    display:block;
+    margin:auto;
+    border:5px solid white;
+    border-radius: 30%;
+    width:60%;
+}
+.name h2{
+   
+    font-size: 1.2rem;
+    font-weight:700;
+    text-align:center;
+    padding:0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.02px;
+    color: #f5f5f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 0px;
+
+}
+.designation h4{
+    margin-top:0px;
+    margin-bottom: 0px;
+    font-size: 1rem;
+    text-align: center;
+    text-transform:uppercase;
+    padding-bottom: 0.5rem;
+    color:#94d9ea;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+hr{
+    margin:0px;
+}
+.description p{
+    font-size:0.75rem;
+    text-align: center;
+    padding: 1rem;
+    color: #f5f5f5;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0px;
+}
+.social-item{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.icon{
+    color:skyblue;
+    list-style-type: none;
+
+}
+
+.personal-details{
+   margin-top: 15px;
+}
+.personal-details .fa-solid{
+    color:skyblue;
+}
+.personal-details li{
+    padding:5px;
+    font-size: 12px;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+}
+.skills{
+    margin-top: 10px;
+    width:268px;
+    height: 408px;
+    
+}
+.skills-content{
+     margin-top:0px;
+     height:352px;
+}
+.skills-title{
+    font-size:1rem;
+    font-weight: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding:1rem 0.5rem 1rem 0.5rem;
+    margin-top:5px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.skill-name{
+    font-size:0.65rem;
+    font-weight:0.65rem;
+    text-align: left;
+    padding-bottom: 0.5rem;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.progress-bar{
+    margin-top:0px;
+    margin-bottom:0px;
+    border:1px solid white;
+    height:4px;
+    border-radius: 2px;
+    background-color: white;
+
+}
+.right-section{
+    background-color: lightblue;
+     grid-column: 2/span 1;
+     align-items: center;
+     justify-content: center;
+
+}
+.right-main-content{
+    padding:2rem 3rem 2rem 3rem;
+}
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding:0.5rem;
+    padding-left:0;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top:20px;
+    padding-top:0px;
+    
+}
+.para{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0px;
+}
+.education-content{
+    display:flex;
+    flex-direction: row;
+    margin-right: 50px;
+    
+}
+
+.degree h5{
+    margin-bottom:0px;
+    margin-top:10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.degree p{
+    margin-right:40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin-top:5px;
+     margin-bottom: 0px;
+}
+.experience-content{
+    display:flex;
+    flex-direction: row;
+    margin-right: 50px;
+   
+    
+}
+
+.job_role h5{
+    margin-bottom:0px;
+    margin-top:10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.job_role p{
+    margin-right:40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin-top:5px;
+     margin-bottom: 0px;
+}
+
+.project-content{
+    display:flex;
+    flex-direction: row;
+    margin-right: 40px;
+ 
+}
+
+.project h5{
+    margin-bottom:0px;
+    margin-top:10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.project p{
+    margin-right:25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin-top:5px;
+     margin-bottom: 0px;
+}
+@media screen and (max-width: 673px){
+   .main-content{
+        display:grid;
+       grid-template-columns: repeat(1,1fr);
+       min-height: 1000px;
+       width:90%;
+       margin: 20px auto;
+
+   }
+}
+
+
+
+
+
+
