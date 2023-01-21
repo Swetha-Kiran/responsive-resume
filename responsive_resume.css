@@ -12,11 +12,26 @@ body{
     margin:20px auto;
   
 }
+@media screen and (max-width: 673px){
+    .main-content{
+         display:grid;
+        grid-template-columns: repeat(1,1fr);
+        min-height: 1000px;
+        width:90%;
+        margin: 20px auto;
+ 
+    }
+ }
+ @media screen and (max-width: 673px){
+     body{
+         font-size: x-small;
+     }
+ }
    
 .left-section{
       background-color: #242531;
       padding:1rem;
-      grid-column: 1/span 1;
+      grid-column: span 1;
       align-items: center;
       justify-content: center;
 }
@@ -133,7 +148,7 @@ hr{
 }
 .right-section{
     background-color: lightblue;
-     grid-column: 2/span 1;
+     grid-column: span 1/span 2;
      align-items: center;
      justify-content: center;
 
@@ -215,16 +230,7 @@ hr{
      margin-top:5px;
      margin-bottom: 0px;
 }
-@media screen and (max-width: 673px){
-   .main-content{
-        display:grid;
-       grid-template-columns: repeat(1,1fr);
-       min-height: 1000px;
-       width:90%;
-       margin: 20px auto;
 
-   }
-}
 
 
 
